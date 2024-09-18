@@ -1,9 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
+import { ConnectButton } from "thirdweb/react";
+import { client } from "./config/thirdwebClient";
 function App() {
   return (
     <div className="App">
+      <ConnectButton
+        client={client}
+        // chain={defineChain(optimism)}
+        connectButton={{
+          label: "Connect wallet",
+        }}
+      />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

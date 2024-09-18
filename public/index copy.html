@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Crowdsale + Exchange Component</title>
+    <style>
+      @font-face {
+        font-family: "Futura";
+        src: url("Futura-Light.ttf");
+        font-weight: 300;
+      }
+
+      @font-face {
+        font-family: "Futura";
+        src: url("Futura-Medium.ttf");
+        font-weight: 500;
+      }
+
+      @font-face {
+        font-family: "Futura";
+        src: url("Futura-Bold.ttf");
+        font-weight: 700;
+      }
+
+      uniswap-enchainte {
+        font-family: Futura, Helvetica, sans-serif;
+        --uniswap-primary: #840c4a;
+        --uniswap-secondary: rgb(200, 124, 57);
+      }
+
+      body {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div
+      style="
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url('https://images.unsplash.com/photo-1563514227147-6d2ff665a6a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=100');
+        background-size: cover;
+      "
+    >
+      <!-- <uniswap-enchainte
+        style="width: 100%;"
+        title="Viniswap"
+        apiurl="https://costaflores.openvino.exchange"
+        providerUrl="https://mainnet.infura.io/v3/6d7880a8f4b347ca8953d2715e164241"
+        networkId="1"
+        crowdsaleaddress="0x5411bffa359fF9cEbA0ED275aC5F00aB3435cB47"
+        tokenAddress="0x6a2f414e1298264ecd446d6bb9da012760336a4f"
+        redeemDate="Feb 16, 2021"
+        tokenYear="2019"
+        tokenName="MTB19"
+        image="mtb.png"
+        tokenIcon="tokenIcon.svg"
+        mapsapikey="AIzaSyC6t7EuOhDJf_B8gpafWNUnqNqoLvZy0jI"
+      ></uniswap-enchainte> -->
+      <uniswap-enchainte
+        style="width: 100%"
+        title="Viniswap"
+        apiurl="https://costaflores.openvino.exchange"
+        providerUrl="https://mainnet.infura.io/v3/6d7880a8f4b347ca8953d2715e164241"
+        networkId="1"
+        crowdsaleaddress="0xFed879fc027b09b9468964A1Cc83dB2861bBA220"
+        tokenAddress="0x6a2f414e1298264ecd446d6bb9da012760336a4f"
+        redeemDate="Feb 16, 2021"
+        tokenYear="2019"
+        tokenName="MTB19"
+        image="mtb.png"
+        tokenIcon="tokenIcon.svg"
+        mapsapikey="AIzaSyC6t7EuOhDJf_B8gpafWNUnqNqoLvZy0jI"
+        shippingaccount="0xCe3759171B37D1B78280fD9472eB1aB9972A8205"
+      ></uniswap-enchainte>
+    </div>
+  </body>
+</html>
